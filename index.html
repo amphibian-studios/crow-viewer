@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple GLB Model Viewer</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=UnifrakturMaguntia&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="scene-container"></div>
+    <div id="loading" class="loading-indicator">Loading model...</div>
+    <div class="instructions">
+      <p>
+        mouse :: left click + drag to rotate | right click + drag to pan |
+        scroll to zoom
+      </p>
+      <p>keyboard :: arrow keys to rotate | +/- to zoom</p>
+    </div>
+
+    <!-- Import the script as a module -->
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
