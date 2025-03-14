@@ -252,7 +252,7 @@ function updateRain() {
 
 // Load GLB model
 function loadModel() {
-  const modelPath = "./crow.glb";
+  const modelPath = "../assets/crow.glb";
   const loader = new GLTFLoader(loadingManager);
 
   loader.load(
